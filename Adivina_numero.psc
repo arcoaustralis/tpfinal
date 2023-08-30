@@ -1,13 +1,13 @@
 Algoritmo Adivina_numero
 	num_final<- azar(100)
-	Escribir "intenta adivinar el número que estoy pensando"
+	Escribir "intenta adivinar el nÃºmero que estoy pensando"
 	Leer num_elegido
 	Mientras num_elegido<>num_final Hacer
 		Si num_elegido < num_final Entonces
-			Escribir "un poco más alto"
+			Escribir "un nÃºmero un poco mÃ¡s alto"
 			Leer num_elegido
 		SiNo
-			Escribir "un poco más bajo"
+			Escribir "un nÃºmero un poco mÃ¡s bajo"
 			Leer num_elegido
 		Fin Si
 	Fin Mientras
