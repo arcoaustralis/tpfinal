@@ -1,6 +1,6 @@
 Algoritmo Adivina_numero
 	num_final<- azar(100)
-	Escribir "intenta adivinar el número que estoy pensando"
+	Mostrar "intenta adivinar el número que estoy pensando"
 	Leer num_elegido
 	Mientras num_elegido<>num_final Hacer
 		Si num_elegido < num_final Entonces
